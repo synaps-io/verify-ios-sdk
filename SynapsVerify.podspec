@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
     spec.homepage     = "https://docs.synaps.io/"
     spec.license      = "BSD 3-Clause"
     spec.author       = { "Synaps" => "riwan@synaps.io" }
-    spec.source       = { :git => "https://github.com/synaps-io/verify-ios-sdk.git", :tag => "#{spec.version}" }
+    spec.source       = { :git => "git@github.com:synaps-io/verify-ios-sdk.git", :tag => "#{spec.version}" }
     # spec.source_files  = "verify/*.{h,swift}"
     spec.platform     = ['ios']
     spec.ios.deployment_target = "15.0"
