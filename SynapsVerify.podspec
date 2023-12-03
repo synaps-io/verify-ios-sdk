@@ -21,7 +21,7 @@ Pod::Spec.new do |spec|
     # spec.source_files  = "verify/*.{h,swift}"
     spec.platform     = ['ios']
     spec.ios.deployment_target = "15.0"
-    spec.ios.vendored_frameworks = 'verify.xcframework'
+    spec.ios.vendored_frameworks = 'SynapsVerify.xcframework'
     spec.swift_versions = ['5.3']
     spec.requires_arc = true
     spec.frameworks   = "UIKit", "Foundation"

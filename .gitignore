@@ -238,6 +238,7 @@ Dependencies/
 Packages
 xcuserdata
 *.xcodeproj
+.swiftpm
 
 
 ### Xcode ###

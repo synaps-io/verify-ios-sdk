@@ -1,0 +1,85 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target x86_64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name SynapsVerify
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AVFoundation
+import AudioToolbox
+import Combine
+import CoreNFC
+import Foundation
+import Swift
+import SwiftUI
+import UIKit
+import WebKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+import os
+@objc @_inheritsConvenienceInitializers @available(iOS 15.0, *)
+public class VerifyWKUIDelegate : ObjectiveC.NSObject, WebKit.WKUIDelegate {
+  @objc public func webView(_ webView: WebKit.WKWebView, requestMediaCapturePermissionFor origin: WebKit.WKSecurityOrigin, initiatedByFrame frame: WebKit.WKFrameInfo, type: WebKit.WKMediaCaptureType, decisionHandler: @escaping (WebKit.WKPermissionDecision) -> Swift.Void)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@available(iOS 15.0, *)
+public struct VerifyView : SwiftUI.UIViewRepresentable {
+  public init(sessionId: Swift.String, lang: SynapsVerify.VerifyLang = .english, tier tierIdentifier: Swift.String? = nil)
+  public init(sessionId: Swift.String, lang: SynapsVerify.VerifyLang = .english, tier tierIdentifier: Swift.String? = nil, hideClose: Swift.Bool = false)
+  @_Concurrency.MainActor(unsafe) public func makeUIView(context: SynapsVerify.VerifyView.Context) -> WebKit.WKWebView
+  @_Concurrency.MainActor(unsafe) public func updateUIView(_ webView: WebKit.WKWebView, context: SynapsVerify.VerifyView.Context)
+  public func onReady(perform action: (() -> Swift.Void)?) -> SynapsVerify.VerifyView
+  public func onFinished(perform action: (() -> Swift.Void)?) -> SynapsVerify.VerifyView
+  public typealias Body = Swift.Never
+  public typealias Coordinator = Swift.Void
+  public typealias UIViewType = WebKit.WKWebView
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @available(iOS 15.0, *)
+@_Concurrency.MainActor(unsafe) public class VerifyUiView : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) public func startSession(sessionId: Swift.String, lang: SynapsVerify.VerifyLang = .english, tier tierIdentifier: Swift.String? = nil)
+  @_Concurrency.MainActor(unsafe) public func onReady(perform action: (() -> Swift.Void)?)
+  @_Concurrency.MainActor(unsafe) public func onFinished(perform action: (() -> Swift.Void)?)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @available(iOS 15.0, *)
+public class VerifyNfcController : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  @objc deinit
+}
+@available(iOS 15.0, *)
+extension SynapsVerify.VerifyNfcController : WebKit.WKScriptMessageHandler {
+  @objc dynamic public func userContentController(_ userContentController: WebKit.WKUserContentController, didReceive message: WebKit.WKScriptMessage)
+}
+extension SynapsVerify.VerifyNfcController : CoreNFC.NFCTagReaderSessionDelegate {
+  public func tagReaderSessionDidBecomeActive(_ session: CoreNFC.NFCTagReaderSession)
+  public func tagReaderSession(_ session: CoreNFC.NFCTagReaderSession, didInvalidateWithError error: any Swift.Error)
+  public func tagReaderSession(_ session: CoreNFC.NFCTagReaderSession, didDetect tags: [CoreNFC.NFCTag])
+}
+@_hasMissingDesignatedInitializers public class Verify {
+  public static let shared: SynapsVerify.Verify
+  public var debug: Swift.Bool
+  @objc deinit
+}
+public enum VerifyLang {
+  case english
+  case french
+  case german
+  case spanish
+  case italian
+  case japanese
+  case korean
+  case portuguese
+  case romanian
+  case russian
+  case turkish
+  case vietnamese
+  case chinese
+  case chineseTraditional
+  public static func from(code: Swift.String) -> SynapsVerify.VerifyLang
+  public static func == (a: SynapsVerify.VerifyLang, b: SynapsVerify.VerifyLang) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension SynapsVerify.VerifyLang : Swift.Equatable {}
+extension SynapsVerify.VerifyLang : Swift.Hashable {}
