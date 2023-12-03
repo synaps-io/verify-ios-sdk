@@ -12,9 +12,6 @@ let package = Package(
     dependencies: [
         ],
     targets: [
-        .binaryTarget(
-            name: "SynapsVerify",
-            path: "./verify.xcframework"
-            )
+        .binaryTarget(name: "SynapsVerify",path: "SynapsVerify.xcframework")
         ]
     )
