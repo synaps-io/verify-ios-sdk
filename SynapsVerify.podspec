@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |spec|
     spec.name         = "SynapsVerify"
-    spec.version      = "0.0.2"
+    spec.version      = "0.0.3"
     spec.summary      = "Synaps KYC integration"
     spec.description  = <<-DESC
     The easy way to integrate your synaps component in your IOS app
@@ -24,7 +24,7 @@ Pod::Spec.new do |spec|
     spec.ios.vendored_frameworks = 'SynapsVerify.xcframework'
     spec.swift_versions = ['5.3']
     spec.requires_arc = true
-    spec.frameworks   = "UIKit", "Foundation"
+    spec.frameworks   = "UIKit", "Foundation", "SwiftUI"
     #spec.exclude_files = "Classes/Exclude"
   end
   

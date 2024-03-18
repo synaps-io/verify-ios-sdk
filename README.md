@@ -23,13 +23,13 @@ pod 'SynapsVerify'
 
 ### Carthage:
 ```
-github "synaps-io/verify-ios-sdk"
+github "synaps-io/ios-verify"
 ```
 ### Swift Package Manager:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/synaps-io/verify-ios-sdk", from: "0.0.2")
+    .package(url: "https://github.com/synaps-io/ios-verify", from: "0.0.3")
 ]
 ```
 
@@ -184,7 +184,7 @@ verifyView.onFinished {
 
 [@synaps](https://twitter.com/synaps_id)
 
-[https://github.com/synaps-hub/ios-verify](https://github.com/synaps-io/verify-ios-sdk)
+[https://github.com/synaps-hub/ios-verify](https://github.com/synaps-hub/ios-verify)
 
 [swift-image]:https://img.shields.io/badge/swift-5.0-orange.svg
 [swift-url]: https://swift.org/
