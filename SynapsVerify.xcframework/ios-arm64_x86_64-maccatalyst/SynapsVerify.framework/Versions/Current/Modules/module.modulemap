@@ -1,4 +1,0 @@
-framework module SynapsVerify {
-  header "SynapsVerify-Swift.h"
-  requires objc
-}
