@@ -29,7 +29,7 @@ github "synaps-io/ios-verify"
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/synaps-io/ios-verify", from: "0.0.5")
+    .package(url: "https://github.com/synaps-io/ios-verify", from: "0.0.6")
 ]
 ```
 
