@@ -10,15 +10,15 @@
 		</data>
 		<key>Resources/Info.plist</key>
 		<data>
-		EjjWLBG9Zmo7OnXwLdt6CtA9MII=
+		PoqkVp6ayo5fhIaFTirfm9JF8yo=
 		</data>
 		<key>Resources/README.md</key>
 		<data>
-		VqzDV5j1Y8o2jxHR0ukLH/8mUas=
+		8uBFdZIbVUVsUXPWOZF3femjylI=
 		</data>
 		<key>Resources/SynapsVerify.podspec</key>
 		<data>
-		LCHKBEnqxX+LmzoHQP1fiJeabEw=
+		26nkss68HDYsjKw4gn18y10+mU0=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -69,7 +69,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OBYJOQ2ZphlCqdxfnhLgMhZEtYpZ3MmI7qTW7kZl3rg=
+			KD9YFdqn9umKZKZwGYOjjDtbRJBG+LlsG+RCqE/c9hw=
 			</data>
 		</dict>
 		<key>Modules/SynapsVerify.swiftmodule/x86_64-apple-ios-macabi.abi.json</key>
@@ -104,7 +104,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GVUDxuA6brHWkzGWBysTnjxinzNLXgHon+knEHE2lVA=
+			7GpMCKkYrdWlP7usdgdE2GPoNnzyKBdVTWPjaid49Dk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -125,21 +125,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4gVC/CIb+9kwkhr6xC3nJjiFCdfQrIPR1JFVRU4+Y0w=
+			4kDlnygtCqLcd/PfrpTuhUPFw5AmfmMfuzymLJeZK2M=
 			</data>
 		</dict>
 		<key>Resources/README.md</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			k+e8w+5CdWWOPXiuL1/g2kRm1U6PJ5Ga1VOOPkPhMgo=
+			dbo5kFrFv59BYPWIu9+PudjJKtqgDxEG1p84gLzbD8Q=
 			</data>
 		</dict>
 		<key>Resources/SynapsVerify.podspec</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			POYBZaeqcnhURV7scTbjrxj3wqYsx1BnJod71kEkhxA=
+			xQhX6t5rYSWNbw6Ickv2A+yBtY45hQ7vXBsWYeLFRdY=
 			</data>
 		</dict>
 	</dict>

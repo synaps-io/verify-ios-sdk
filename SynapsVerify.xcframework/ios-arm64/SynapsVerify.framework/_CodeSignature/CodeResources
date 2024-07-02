@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		EUipbVCJ3ytGfMeR4Ssd+Oa8TrA=
+		jZx2ChjYI9OuD8lIE0RMrFjAubY=
 		</data>
 		<key>Modules/SynapsVerify.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/SynapsVerify.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		0veARCI2f9oVfM4D0xQk5Nmozzk=
+		x8YX/WtljciHepaQDkgwl9s0+LA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>README.md</key>
 		<data>
-		VqzDV5j1Y8o2jxHR0ukLH/8mUas=
+		8uBFdZIbVUVsUXPWOZF3femjylI=
 		</data>
 		<key>SynapsVerify.podspec</key>
 		<data>
-		LCHKBEnqxX+LmzoHQP1fiJeabEw=
+		26nkss68HDYsjKw4gn18y10+mU0=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -108,7 +108,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QhBpOB3C0lgMOazo/ZRyL1ejxvMnZlRddc23fE2AZFM=
+			Cv4MtOGjrOt9dwcr/zSaYsO7tqnOvmquGb210z3t9T4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -122,14 +122,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			k+e8w+5CdWWOPXiuL1/g2kRm1U6PJ5Ga1VOOPkPhMgo=
+			dbo5kFrFv59BYPWIu9+PudjJKtqgDxEG1p84gLzbD8Q=
 			</data>
 		</dict>
 		<key>SynapsVerify.podspec</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			POYBZaeqcnhURV7scTbjrxj3wqYsx1BnJod71kEkhxA=
+			xQhX6t5rYSWNbw6Ickv2A+yBtY45hQ7vXBsWYeLFRdY=
 			</data>
 		</dict>
 	</dict>
