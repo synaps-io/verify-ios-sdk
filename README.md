@@ -1,17 +1,17 @@
 # Synaps verify
 
 [![Swift Version][swift-image]][swift-url]
-[![Build Status][travis-image]][travis-url]
 [![License][license-image]][license-url]
 [![CocoaPods Compatible](https://img.shields.io/cocoapods/v/SynapsVerify.svg)](https://img.shields.io/cocoapods/v/SynapsVerify.svg)
 [![Platform](https://img.shields.io/cocoapods/p/SynapsVerify.svg?style=flat)](http://cocoapods.org/pods/SynapsVerify)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 **Synaps is an all-in-one compliance platform**. It offers a simple, fast and secure way to meet compliance requirements at scale.
 
 [Visit Synaps.io](https://synaps.io) | [Read the Synaps documentation](https://docs.synaps.io)
 
-![enter image description here](https://storage.googleapis.com/synaps-docs-media/synaps-verify.png)
+<div align=center>
+	<img width="55%" src=media/synaps-verify.jpeg>
+</div>
 
 ## Installation
 
@@ -21,15 +21,11 @@
 pod 'SynapsVerify'
 ```
 
-### Carthage:
-```
-github "synaps-io/ios-verify"
-```
 ### Swift Package Manager:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/synaps-io/ios-verify", from: "0.0.6")
+    .package(url: "https://github.com/synaps-io/ios-verify", from: "0.0.7")
 ]
 ```
 
@@ -77,7 +73,7 @@ class VerifyViewController : UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         verifyView.startSession(sessionId: sessionId, lang: .french)
     }
 }
@@ -93,15 +89,15 @@ First of all, you should set the session id. Session Id can be referred as a cus
 | ------------------ | --------------------------------------------------------------------------------------------------- | ------- | -------- | ----------------------------------------------------------------------------- |
 | `sessionId`        | `string`                                                                                            | `''`    | Y        | Session can be referred as a customer verification session. [More info](https://help.synaps.io/manager-1/sessions)                                       |
 | `lang`      | `VerifyLang`                                                                       | `.english`  | N        | You can set a predefined language for your user. Synaps already take advantage of browser language to display the relevant language to the end-user but if your user has set up a language option to your website, you can definitely pass it as an option.|
-| `tier`      | `int`                                                                       | `null`  | N        | Tier is a simply way to divide your workflow into small pieces. It is very useful when you offer different features based on the verification level of your customer.  [More info](https://help.synaps.io/manager-1/apps/individual/tiers)                           |
+| `tier`      | `string`                                                                       | `null`  | N        | Tier is a simply way to divide your workflow into small pieces. It is very useful when you offer different features based on the verification level of your customer.  [More info](https://help.synaps.io/manager-1/apps/individual/tiers)                           |
 
 ### Configuration
 
-Avant de lancer une session Verify. Le projet de votre application a besoin de quelque configuration.
+Before launching a Verify session with nfc feature, your application project needs some configuration.
 
 #### NFC
 
-The application must declare the use of the NFC chip, and must have NFC [entilement](https://developer.apple.com/documentation/bundleresources/entitlements) : 
+The application must declare the use of the NFC chip, and must have NFC [entilement](https://developer.apple.com/documentation/bundleresources/entitlements) :
 ```xml
 <key>com.apple.developer.nfc.readersession.formats</key>
 <array>
@@ -111,7 +107,7 @@ The application must declare the use of the NFC chip, and must have NFC [entilem
 
 The Info.plist file must contain the field  `NFCReaderUsageDescription`
 
-Your application's Info.plist file must contain the application IDs needed to scan the documents. 
+Your application's Info.plist file must contain the application IDs needed to scan the documents.
 ```xml
 <key>com.apple.developer.nfc.readersession.iso7816.select-identifiers</key>
 <array>
@@ -184,12 +180,9 @@ verifyView.onFinished {
 
 [@synaps](https://twitter.com/synaps_id)
 
-[https://github.com/synaps-hub/ios-verify](https://github.com/synaps-hub/ios-verify)
+[https://github.com/synaps-io/verify-ios-sdk](https://github.com/synaps-io/verify-ios-sdk)
 
-[swift-image]:https://img.shields.io/badge/swift-5.0-orange.svg
+[swift-image]:https://img.shields.io/badge/swift-5.3-orange.svg
 [swift-url]: https://swift.org/
-[license-image]: https://img.shields.io/badge/License-Apache2.0-blue.svg
+[license-image]: https://img.shields.io/github/license/synaps-io/verify-ios-sdk?color=blue
 [license-url]: LICENSE
-[travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
-[travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
-

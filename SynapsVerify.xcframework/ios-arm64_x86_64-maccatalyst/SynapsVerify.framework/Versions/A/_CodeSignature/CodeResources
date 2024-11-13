@@ -10,15 +10,15 @@
 		</data>
 		<key>Resources/Info.plist</key>
 		<data>
-		PoqkVp6ayo5fhIaFTirfm9JF8yo=
+		fVHInuHcQa4+mMgMHNx0KOF7Ssc=
 		</data>
 		<key>Resources/README.md</key>
 		<data>
-		8uBFdZIbVUVsUXPWOZF3femjylI=
+		wV2sW+yJ2kf/4XkdY9xAFTwP44c=
 		</data>
 		<key>Resources/SynapsVerify.podspec</key>
 		<data>
-		26nkss68HDYsjKw4gn18y10+mU0=
+		s5iyEAhCYqdLt6yLHL9mPt3wFc4=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -27,7 +27,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bbcDD+AoN2uR6sVHvyXc+ZKjbM5TnX2hPSoW454qvrw=
+			yrV66k8YPHRe0jVoNzin8miyOX649kAffCXE5Bv54tM=
 			</data>
 		</dict>
 		<key>Headers/verify.h</key>
@@ -41,70 +41,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			iq/zubuX9A0EvuaDbz0AyC1JfOFMFcp+XFQ9ma1kYwY=
+			j+MGZDdd9IgLVY1fqEgpGSCK4ldTpIqbAur6pO8Lg8M=
 			</data>
 		</dict>
 		<key>Modules/SynapsVerify.swiftmodule/arm64-apple-ios-macabi.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Wa4b7cJ0fflKQRSRJnZlgltsDW1dFvXLx0hbQiY9H28=
+			ZegHBtIVbXyZAXK9lXHhrDxHUMmBtIxS4rbhNhLagv8=
 			</data>
 		</dict>
 		<key>Modules/SynapsVerify.swiftmodule/arm64-apple-ios-macabi.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ih74665RBseX4pbJ6BfCyojXN7Sk7Lg1TC0ctDeki4Y=
+			PjAwfQDYVTS9EfwINRRQGy7rgDYrV0OiHeNlyyEzfY4=
 			</data>
 		</dict>
 		<key>Modules/SynapsVerify.swiftmodule/arm64-apple-ios-macabi.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Wa4b7cJ0fflKQRSRJnZlgltsDW1dFvXLx0hbQiY9H28=
+			ZegHBtIVbXyZAXK9lXHhrDxHUMmBtIxS4rbhNhLagv8=
 			</data>
 		</dict>
 		<key>Modules/SynapsVerify.swiftmodule/arm64-apple-ios-macabi.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KD9YFdqn9umKZKZwGYOjjDtbRJBG+LlsG+RCqE/c9hw=
+			cMJZDTPBXptU9EevwLTRAXDg5T8Nf0CeqkmErcv/pBs=
 			</data>
 		</dict>
 		<key>Modules/SynapsVerify.swiftmodule/x86_64-apple-ios-macabi.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iq/zubuX9A0EvuaDbz0AyC1JfOFMFcp+XFQ9ma1kYwY=
+			j+MGZDdd9IgLVY1fqEgpGSCK4ldTpIqbAur6pO8Lg8M=
 			</data>
 		</dict>
 		<key>Modules/SynapsVerify.swiftmodule/x86_64-apple-ios-macabi.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			p82eCC0jEOpfwAR9A8skWrBk3jRgR1uUzPV+BYKHy1U=
+			5j77ONFUxez3Iyk6NmD8DRBDAG4HwO2/1TW+NG3RNHc=
 			</data>
 		</dict>
 		<key>Modules/SynapsVerify.swiftmodule/x86_64-apple-ios-macabi.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hYzDliXoHkiPAQMUwito0E/SZZ2/N5Yzr81g4tv7EB4=
+			SmmRiTA4EyndDrjzJOQu3RccsV3O+HWjjrjEyEqsSe8=
 			</data>
 		</dict>
 		<key>Modules/SynapsVerify.swiftmodule/x86_64-apple-ios-macabi.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			p82eCC0jEOpfwAR9A8skWrBk3jRgR1uUzPV+BYKHy1U=
+			5j77ONFUxez3Iyk6NmD8DRBDAG4HwO2/1TW+NG3RNHc=
 			</data>
 		</dict>
 		<key>Modules/SynapsVerify.swiftmodule/x86_64-apple-ios-macabi.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7GpMCKkYrdWlP7usdgdE2GPoNnzyKBdVTWPjaid49Dk=
+			9rvxNRHUWYHNq5e5YYFLfZoLnI/ArcoRYec1sZGFWhY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -125,21 +125,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4kDlnygtCqLcd/PfrpTuhUPFw5AmfmMfuzymLJeZK2M=
+			OARiXnBLMBy7TGV/rodh36bjR0EYlZFKfYTliEotYoo=
 			</data>
 		</dict>
 		<key>Resources/README.md</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dbo5kFrFv59BYPWIu9+PudjJKtqgDxEG1p84gLzbD8Q=
+			dUqYSnHjLFWFjIfOijFVerdvbIefT0xqaDx/6Tdzb4w=
 			</data>
 		</dict>
 		<key>Resources/SynapsVerify.podspec</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xQhX6t5rYSWNbw6Ickv2A+yBtY45hQ7vXBsWYeLFRdY=
+			6h07kbgX4E9Q8iR+8UF4eQUmlLNz6tW2qme+Tql4e70=
 			</data>
 		</dict>
 	</dict>

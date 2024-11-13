@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "SynapsVerify",
+    "printedName": "SynapsVerify",
     "children": [
       {
         "kind": "Import",
@@ -132,6 +132,8 @@
             "mangledName": "$s12SynapsVerify0B4ViewV9sessionId4lang4tierACSS_AA0B4LangOSSSgtcfc",
             "moduleName": "SynapsVerify",
             "declAttributes": [
+              "Preconcurrency",
+              "Custom",
               "AccessControl"
             ],
             "init_kind": "Designated"
@@ -188,6 +190,8 @@
             "mangledName": "$s12SynapsVerify0B4ViewV9sessionId4lang4tier9hideCloseACSS_AA0B4LangOSSSgSbtcfc",
             "moduleName": "SynapsVerify",
             "declAttributes": [
+              "Preconcurrency",
+              "Custom",
               "AccessControl"
             ],
             "init_kind": "Designated"
@@ -251,6 +255,8 @@
             "mangledName": "$s12SynapsVerify0B4ViewV9sessionId4lang4tier10queryItemsACSS_AA0B4LangOSSSgSay10Foundation12URLQueryItemVGtcfc",
             "moduleName": "SynapsVerify",
             "declAttributes": [
+              "Preconcurrency",
+              "Custom",
               "AccessControl"
             ],
             "init_kind": "Designated"
@@ -286,6 +292,7 @@
             "mangledName": "$s12SynapsVerify0B4ViewV10makeUIView7contextSo05WKWebC0C7SwiftUI0E20RepresentableContextVyACG_tF",
             "moduleName": "SynapsVerify",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -327,6 +334,7 @@
             "mangledName": "$s12SynapsVerify0B4ViewV12updateUIView_7contextySo05WKWebC0C_7SwiftUI0E20RepresentableContextVyACGtF",
             "moduleName": "SynapsVerify",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -374,6 +382,8 @@
             "mangledName": "$s12SynapsVerify0B4ViewV7onReady7performACyycSg_tF",
             "moduleName": "SynapsVerify",
             "declAttributes": [
+              "Preconcurrency",
+              "Custom",
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
@@ -420,6 +430,8 @@
             "mangledName": "$s12SynapsVerify0B4ViewV10onFinished7performACyycSg_tF",
             "moduleName": "SynapsVerify",
             "declAttributes": [
+              "Preconcurrency",
+              "Custom",
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
@@ -431,10 +443,26 @@
         "moduleName": "SynapsVerify",
         "intro_iOS": "15.0",
         "declAttributes": [
+          "Preconcurrency",
+          "Custom",
           "AccessControl",
           "Available"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "UIViewRepresentable",
@@ -490,6 +518,13 @@
             ],
             "usr": "s:7SwiftUI4ViewP",
             "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -606,6 +641,7 @@
             "mangledName": "$s12SynapsVerify0B6UiViewC12startSession9sessionId4lang4tier9hideClose10queryItemsySS_AA0B4LangOSSSgSbSay10Foundation12URLQueryItemVGSgtF",
             "moduleName": "SynapsVerify",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -652,6 +688,7 @@
             "mangledName": "$s12SynapsVerify0B6UiViewC7onReady7performyyycSg_tF",
             "moduleName": "SynapsVerify",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -698,6 +735,7 @@
             "mangledName": "$s12SynapsVerify0B6UiViewC10onFinished7performyyycSg_tF",
             "moduleName": "SynapsVerify",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -710,6 +748,7 @@
         "moduleName": "SynapsVerify",
         "intro_iOS": "15.0",
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl",
           "Available",
@@ -724,6 +763,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -1021,7 +1074,23 @@
           "AccessControl",
           "RawDocComment"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -1682,6 +1751,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -1750,6 +1833,76 @@
       "value": "500"
     },
     {
+      "filePath": "\/Users\/jamybailly\/dev\/synaps\/ios\/ios-verify\/SynapsVerify\/Nfc\/VerifyNfcController.swift",
+      "kind": "StringLiteral",
+      "offset": 9417,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jamybailly\/dev\/synaps\/ios\/ios-verify\/SynapsVerify\/Nfc\/VerifyNfcController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9441,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jamybailly\/dev\/synaps\/ios\/ios-verify\/SynapsVerify\/Nfc\/VerifyNfcController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9480,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/jamybailly\/dev\/synaps\/ios\/ios-verify\/SynapsVerify\/Nfc\/VerifyNfcController.swift",
+      "kind": "StringLiteral",
+      "offset": 9514,
+      "length": 6,
+      "value": "\"🟦\""
+    },
+    {
+      "filePath": "\/Users\/jamybailly\/dev\/synaps\/ios\/ios-verify\/SynapsVerify\/Nfc\/VerifyNfcController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9544,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jamybailly\/dev\/synaps\/ios\/ios-verify\/SynapsVerify\/Nfc\/VerifyNfcController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9573,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jamybailly\/dev\/synaps\/ios\/ios-verify\/SynapsVerify\/Nfc\/VerifyNfcController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9599,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/jamybailly\/dev\/synaps\/ios\/ios-verify\/SynapsVerify\/Nfc\/VerifyNfcController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9618,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/jamybailly\/dev\/synaps\/ios\/ios-verify\/SynapsVerify\/Nfc\/VerifyNfcController.swift",
+      "kind": "StringLiteral",
+      "offset": 9653,
+      "length": 8,
+      "value": "\"⬜️\""
+    },
+    {
+      "filePath": "\/Users\/jamybailly\/dev\/synaps\/ios\/ios-verify\/SynapsVerify\/Nfc\/VerifyNfcController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9685,
+      "length": 1,
+      "value": "1"
+    },
+    {
       "filePath": "\/Users\/jamybailly\/dev\/synaps\/ios\/ios-verify\/SynapsVerify\/Core\/Verify.swift",
       "kind": "StringLiteral",
       "offset": 201,
@@ -1759,28 +1912,21 @@
     {
       "filePath": "\/Users\/jamybailly\/dev\/synaps\/ios\/ios-verify\/SynapsVerify\/Core\/Verify.swift",
       "kind": "StringLiteral",
-      "offset": 271,
-      "length": 31,
-      "value": "\"https:\/\/verify.dev.synaps.run\""
-    },
-    {
-      "filePath": "\/Users\/jamybailly\/dev\/synaps\/ios\/ios-verify\/SynapsVerify\/Core\/Verify.swift",
-      "kind": "StringLiteral",
-      "offset": 410,
+      "offset": 336,
       "length": 130,
       "value": "\"\twindow.addEventListener(\"message\", ({ data }) => {\n\t\twindow.webkit.messageHandlers.verify.postMessage(data.type)\n\t});\""
     },
     {
       "filePath": "\/Users\/jamybailly\/dev\/synaps\/ios\/ios-verify\/SynapsVerify\/Core\/Verify.swift",
       "kind": "BooleanLiteral",
-      "offset": 606,
+      "offset": 532,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jamybailly\/dev\/synaps\/ios\/ios-verify\/SynapsVerify\/Core\/Verify.swift",
       "kind": "Dictionary",
-      "offset": 817,
+      "offset": 743,
       "length": 3,
       "value": "[]"
     }
