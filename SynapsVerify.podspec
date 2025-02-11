@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |spec|
     spec.name         = "SynapsVerify"
-    spec.version      = "0.0.7"
+    spec.version      = "0.0.8"
     spec.summary      = "Synaps KYC integration"
     spec.description  = <<-DESC
                         The easy way to integrate your synaps component in your IOS app
